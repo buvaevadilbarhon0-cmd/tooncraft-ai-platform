@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ToonCraft AI</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#101323;color:white;font-family:Arial,sans-serif}
+header{padding:22px 7%;display:flex;justify-content:space-between;align-items:center;background:#191d32}
+.logo{font-size:25px;font-weight:bold;color:#9d8cff}
+nav a{color:white;text-decoration:none;margin-left:15px}
+.hero{text-align:center;padding:90px 20px}
+h1{font-size:clamp(38px,7vw,65px);margin:0 0 20px}
+h1 span{color:#a18aff}
+p{color:#c4c6d5;font-size:18px;line-height:1.6}
+.btn{background:#8065ff;color:white;border:0;padding:15px 25px;border-radius:10px;font-size:17px;cursor:pointer}
+.card{max-width:700px;margin:20px auto;padding:30px;background:#1b2038;border-radius:18px;text-align:center}
+textarea{width:100%;height:130px;background:#101323;color:white;border:1px solid #555;border-radius:10px;padding:15px;font-size:16px}
+footer{text-align:center;padding:35px;color:#999}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">🎬 ToonCraft AI</div>
+<nav><a href="#">Home</a><a href="#create">Create</a></nav>
+</header>
+<section class="hero">
+<h1>Create Amazing <span>AI Cartoons</span></h1>
+<p>Turn your imagination into beautiful 3D cartoons.<br>Bring your stories to life with ToonCraft AI!</p>
+<a href="#create"><button class="btn">Start Creating ✨</button></a>
+</section>
+<section class="card" id="create">
+<h2>🎨 AI Cartoon Creator</h2>
+<p>Describe your cartoon idea</p>
+<textarea id="prompt" placeholder="Describe your character or cartoon story..."></textarea>
+<br><br>
+<button class="btn" onclick="alert('AI generation will be connected soon!')">Generate Cartoon ✨</button>
+</section>
+<footer>© 2026 ToonCraft AI. All rights reserved.</footer>
+</body>
+</html>
